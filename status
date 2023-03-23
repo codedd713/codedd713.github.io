@@ -1,0 +1,58 @@
+{
+    "results": [
+        {
+            "duration": 8728755,
+            "err": null,
+            "expected": [
+                "{\"or\":[0,1,2]}"
+            ],
+            "found": [
+                "1"
+            ],
+            "human": "",
+            "meta": {
+                "CIS_ID": [
+                    "5.3.18"
+                ],
+                "server": 1,
+                "workstation": 1
+            },
+            "property": "exit-status",
+            "resource-id": "ssh_configd_banner",
+            "resource-type": "Command",
+            "result": 0,
+            "skipped": false,
+            "successful": true,
+            "summary-line": "Command: ssh_configd_banner: exit-status: matches expectation: [{\"or\":[0,1,2]}]",
+            "test-type": 0,
+            "title": "5.3.18 | Ensure SSH warning banner configured | conf.d banner settings"
+        },
+        {
+            "duration": 15352,
+            "err": null,
+            "expected": [
+                "!/.*/"
+            ],
+            "found": [
+                "!/.*/"
+            ],
+            "human": "",
+            "meta": {
+                "CIS_ID": [
+                    "5.3.18"
+                ],
+                "server": 1,
+                "workstation": 1
+            },
+            "property": "stdout",
+            "resource-id": "ssh_configd_banner",
+            "resource-type": "Command",
+            "result": 0,
+            "skipped": false,
+            "successful": true,
+            "summary-line": "Command: ssh_configd_banner: stdout: matches expectation: [!/.*/]",
+            "test-type": 2,
+            "title": "5.3.18 | Ensure SSH warning banner configured | conf.d banner settings"
+        }
+    ]
+}
